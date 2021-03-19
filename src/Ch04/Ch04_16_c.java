@@ -14,6 +14,10 @@ public class Ch04_16_c {
         System.out.println("단위: ");
         int step = scanf.nextInt();
 
+        for(int i = min; i <= max; i += step) {
+            System.out.print(i);
+            System.out.println(" "+ (i - 100) * 0.9);
+        }
 
     }
 }
